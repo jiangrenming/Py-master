@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="common_bg_color">#F2F2FD</color>-->
+    <!--<color name="press_btn_color">#ddd</color>-->
+    <color name="yellow">#f4a100</color>
+
+    <color name="common_bg_color">#F2F2FD</color>
+    <color name="press_btn_color">#ddd</color>
+</resources>

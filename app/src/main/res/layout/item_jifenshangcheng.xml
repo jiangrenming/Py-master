@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--微信开发-->
+    <LinearLayout
+        android:id="@+id/jfsc_duihuan"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="onLayoutClick"
+        android:clickable="true"
+        android:background="@drawable/text_background" >
+
+        <com.yuqi.admin.py.view.ResizableImageView
+            android:id="@+id/jfsc_tupian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="2dp" />
+        <TextView
+            android:id="@+id/jfsc_leixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_margin"
+            android:singleLine="true"
+            android:text="微信开发"/>
+        <ImageView
+            android:layout_width="@dimen/text_title"
+            android:layout_height="@dimen/text_title"
+            android:src="@mipmap/jf_jifen"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_high_small"/>
+        <TextView
+            android:id="@+id/jfsc_jifen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/yellow1"
+            android:text="5000积分"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_margin"
+            android:layout_gravity="center"
+            android:background="@drawable/toast_background_mm_h"
+            android:paddingLeft="@dimen/text_title"
+            android:paddingRight="@dimen/text_title"
+            android:paddingBottom="@dimen/_high_small"
+            android:paddingTop="@dimen/_high_small"
+            android:text="立即兑换"
+            android:textColor="@color/yellow1"
+            android:layout_marginBottom="@dimen/_margin"/>
+
+    </LinearLayout>
+
+</LinearLayout>

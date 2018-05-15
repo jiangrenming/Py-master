@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+
+    <!--基本信息-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red1"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/jfsc_xm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上海羽琪网络科技有限公司"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_margin"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:id="@+id/jfsc_dh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:layout_marginTop="@dimen/_high_small"
+            android:layout_gravity="center"
+            android:background="@drawable/toast_background_mm_h50"
+            android:paddingLeft="@dimen/_high"
+            android:paddingRight="@dimen/_high"
+            android:paddingBottom="@dimen/_high_small"
+            android:paddingTop="@dimen/_high_small"
+            android:layout_marginBottom="@dimen/_high_small"
+            android:text="15608477512"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_high_small"
+        android:background="@color/gray1"/>
+
+    <com.yuqi.admin.py.view.MyScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_margin"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="积分商城"
+                android:layout_marginBottom="@dimen/_margin"
+                android:layout_marginTop="@dimen/_margin"
+                android:textSize="@dimen/text_title"
+                android:layout_gravity="center"/>
+
+
+                <GridView
+                    android:id="@+id/GridJfsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:divider="@color/transparent"
+                    android:numColumns="2"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp"/>
+
+        </LinearLayout>
+    </com.yuqi.admin.py.view.MyScrollView>
+</LinearLayout>

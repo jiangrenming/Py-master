@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/simple_btn_height">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_margin" >
+
+                <LinearLayout
+                    android:id="@+id/lv_tianxieshouhuodizhi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <!--<ListView-->
+                <!--android:id="@+id/lv_tianxieshouhuodizhi"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/white1"/>-->
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dzbj_xinzengshouhuodizhi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/yellow1"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:onClick="onLayoutClick"
+        android:clickable="true"
+        android:gravity="center"
+        android:hint="新增收货地址"/>
+
+</LinearLayout>

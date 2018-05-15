@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <cn.jzvd.JZVideoPlayerStandard
+        android:id="@+id/videoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+<LinearLayout
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:gravity="center"
+    android:layout_centerVertical="true"
+    android:textSize="15dp"
+    android:id="@+id/video_title_bottom"
+    android:textColor="@color/yellow1"
+    android:layout_width="match_parent"
+    android:layout_height="20dp" />
+</LinearLayout>
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/item_video_list"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:background="@drawable/text_background">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/item_video_img"-->
+            <!--android:layout_width="140dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:scaleType="fitXY" />-->
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/item_video_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_marginRight="@dimen/_margin"-->
+        <!--android:layout_marginLeft="@dimen/_margin"-->
+        <!--android:gravity="center"-->
+        <!--android:text="dgdgdfgdfgdfgdfg"/>-->
+
+<!--</LinearLayout>-->
+
+

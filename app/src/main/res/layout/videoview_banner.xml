@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <cn.jzvd.JZVideoPlayerStandard
+        android:id="@+id/video_banner_jz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:scaleType="centerCrop"/>
+    <com.yuqi.admin.py.view.RoundCornerButton
+        android:id="@+id/banner_tv_video"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="120dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:text="视频"
+        android:clickable="true"
+        android:enabled="false"
+        app:rcb_backgroundColor="@color/light_grey"
+        app:rcb_backgroundColorDisabled="@color/yellow"
+        app:rcb_cornerRadius="10dp" />
+    <com.yuqi.admin.py.view.RoundCornerButton
+        android:id="@+id/banner_tv_pic"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="120dp"
+        android:text="图片"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:textSize="16dp"
+        android:enabled="true"
+        app:rcb_backgroundColor="@color/light_grey"
+        app:rcb_backgroundColorDisabled="@color/yellow"
+        app:rcb_cornerRadius="10dp" />
+</RelativeLayout>

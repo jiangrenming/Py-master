@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:onClick="onLayoutClick"
+        android:background="@color/gray1"
+        android:padding="@dimen/_high_small"
+        android:clickable="true"
+        android:layout_marginBottom="@dimen/_margin"
+        android:textColor="@color/gray2"
+        android:text="开始体验">
+</TextView>

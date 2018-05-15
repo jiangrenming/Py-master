@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="@color/background">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/simple_text_height"
+            android:src="@mipmap/m_py"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_centre1"
+            android:layout_marginBottom="@dimen/_margin"
+            android:textStyle="bold"
+            android:text="金额(￥)："/>
+
+        <EditText
+            android:id="@+id/cz_chongzhijine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_centre1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@null"
+            android:inputType="number"
+            android:layout_marginBottom="@dimen/text_large"
+            android:hint="请输入充值金额"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_small"
+            android:textColor="@color/yellow1"
+            android:layout_marginBottom="@dimen/_margin"
+            android:text="注：充值金额为50或50的倍数"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/cz_zhifubao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_margin"
+            android:paddingBottom="@dimen/_margin"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:background="@color/white1">
+
+            <ImageView
+                android:id="@+id/cz_zhifubao1"
+                android:layout_width="@dimen/simple_btn_height"
+                android:layout_height="@dimen/simple_btn_height"
+                android:paddingLeft="@dimen/_margin"
+                android:src="@mipmap/zfb2"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_margin"
+                android:text="支付宝"/>
+            <ImageView
+                android:id="@+id/cz_zhifubao11"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/xuanzhong"/>
+            <ImageView
+                android:layout_height="18dp"
+                android:layout_width="18dp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_high_small"
+                android:src="@mipmap/xia"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray2"/>
+
+        <LinearLayout
+            android:id="@+id/cz_weixin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_margin"
+            android:paddingBottom="@dimen/_margin"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:background="@color/white1">
+
+            <ImageView
+                android:id="@+id/cz_weixin1"
+                android:layout_width="@dimen/simple_btn_height"
+                android:layout_height="@dimen/simple_btn_height"
+                android:paddingLeft="@dimen/_margin"
+                android:src="@mipmap/wx1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_margin"
+                android:text="微信"/>
+            <ImageView
+                android:id="@+id/cz_weixin11"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/meixuanzhong"/>
+            <ImageView
+                android:layout_height="18dp"
+                android:layout_width="18dp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_high_small"
+                android:src="@mipmap/xia"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cz_queding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/yellow1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:onClick="onLayoutClick"
+        android:clickable="true"
+        android:hint="确认充值  "/>
+
+
+
+
+
+</LinearLayout>

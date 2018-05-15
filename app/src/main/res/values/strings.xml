@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">彭友聚汇</string>
+
+    <string name="ss"> 的"兴起"。</string>
+
+
+    <string name="wyfb_1">我需要采购10包铁观音茶叶，希望尽早与您取得联系</string>
+    <string name="wyfb_sh"> 正在进行审核，客服将会在4小时之内与您取得联系。</string>
+    <string name="dl3">COPYRIGHT 2012-2017 沪ICP备17007398号-1</string>
+    <string name="app_tip">提示</string>
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="title_activity_video_show">VideoShowActivity</string>
+    <string name="title_activity_video_list">VideoListActivity</string>
+    <string name="title_activity_setting_pws">SettingPwsActivity</string>
+    <string name="title_activity_modify_pay_pws">ModifyPayPwsActivity</string>
+    <string name="title_activity_to_share">ToShareActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_reward">RewardActivity</string>
+    <string name="title_activity_express">ExpressActivity</string>
+
+    <!--网络请求-->
+    <string name="no_network_fail">网络请求失败</string>
+    <string name="no_network_check">请检查您的网络 重新加载吧</string>
+    <string name="no_network_loading_again">重新加载</string>
+
+</resources>

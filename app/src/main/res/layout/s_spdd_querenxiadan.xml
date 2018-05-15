@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+            <com.yuqi.admin.py.view.MyScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true" >
+                <!--&lt;!&ndash;物品编辑&ndash;&gt;-->
+                <LinearLayout
+                    android:id="@+id/wpbj"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/gray1"
+                        android:orientation="vertical">
+                        <!--收件信息-->
+                        <!--已有收货地址-->
+                        <LinearLayout
+                            android:id="@+id/sjxx"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white1"
+                            android:onClick="onLayoutClick"
+                            android:clickable="true"
+                            android:layout_marginTop="@dimen/_high_small3"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/_margin"
+                                android:layout_gravity="center"
+                                android:src="@mipmap/dizhi"/>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginTop="@dimen/_high_small3"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:id="@+id/shr"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/_margin"
+                                        android:text="收货人:"
+                                        android:textStyle="bold"/>
+                                    <TextView
+                                        android:id="@+id/qrxd_shoujianren"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:layout_marginLeft="@dimen/_high_small"
+                                        android:text=" "/>
+                                    <TextView
+                                        android:id="@+id/qrxd_shoujihao"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/_high_small"
+                                        android:text=" "/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_high_small3"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/_margin"
+                                        android:text="隶属公司:"
+                                        android:textStyle="bold"/>
+                                    <TextView
+                                        android:id="@+id/qrxd_lishugongsi"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:lines="1"
+                                        android:layout_marginLeft="@dimen/_high_small"
+                                        android:text=" "/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_high_small3"
+                                    android:layout_marginBottom="@dimen/_high_small3"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/_margin"
+                                        android:text="收货地址:"
+                                        android:textStyle="bold"/>
+                                    <TextView
+                                        android:id="@+id/qrxd_shouhuodizhi"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:layout_marginLeft="@dimen/_high_small"
+                                        android:lines="1"
+                                        android:text=" "/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="32dp"
+                                android:layout_height="wrap_content"
+                                android:padding="@dimen/_margin"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/_high_small"
+                                android:src="@mipmap/xia"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/v1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_high_small3"
+                            android:layout_below="@+id/sjxx"
+                            android:background="@color/yellow1"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ListView
+                                android:id="@+id/lv_querendingdan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white1"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.yuqi.admin.py.view.MyScrollView>
+        </LinearLayout>
+
+
+    <!--卖家留言-->
+    <View
+        android:id="@+id/v11"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll1"
+        android:background="@color/gray1"/>
+    <LinearLayout
+        android:id="@+id/maijialiuyan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_high_small"
+        android:layout_below="@+id/v11"
+        android:background="@color/white1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="买家留言"/>
+        <EditText
+            android:id="@+id/maijialiuyan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_high_small"
+            android:maxLength="20"
+            android:background="@null"
+            android:maxLines="1"
+            android:textSize="@dimen/_margin"
+            android:hint="对本次交易的说明(建议填写已和卖家协商)"/>
+    </LinearLayout>
+    <!--支付选项-->
+    <include layout="@layout/include_zhifu_but"/>
+
+
+</LinearLayout>

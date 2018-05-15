@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white1">
+
+    <include layout="@layout/include_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="50dp"
+                        android:background="@mipmap/yq1"
+                        android:layout_weight="1" />
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@mipmap/yuy"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="@dimen/simple_text_height"
+                        android:text="企业简介"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:textColor="@color/white1"
+                        android:background="@color/text_color"  />
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@mipmap/yq3"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="@dimen/simple_text_height"
+                        android:text="发展历程"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white1"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:background="@color/text_color"  />
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@mipmap/yq4"
+                        android:paddingLeft="@dimen/_margin"
+                        android:layout_marginRight="@dimen/_margin"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:scaleType="fitCenter"  />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="@dimen/simple_text_height"
+                        android:text="企业文化"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:textColor="@color/white1"
+                        android:background="@color/text_color" />
+
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="20dp"
+                        android:background="@mipmap/yq5"
+                        android:scaleType="fitCenter"  />
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@mipmap/yq6" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="网站建设"
+                            android:textColor="@color/text_color"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="网站建设是指使用标准语言,通过一系列设计、"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="建模、和执行的过程将电子格式的信息通过互联网传输,最终以图形"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="用户界面(GUI)的形式被用户所浏览"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                    </LinearLayout>
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@mipmap/yq7"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="微信开发"
+                            android:textColor="@color/text_color"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="微信开发即微信公众平台开发,"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="将企业信息、服务、活动等内容通过微信网页的方式进行表现,用户通过简单的设置,"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="就能生成微信3G网站"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                    </LinearLayout>
+
+
+                    <com.yuqi.admin.py.view.ResizableImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@mipmap/yq8"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="APP开发"
+                            android:textColor="@color/text_color"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="APP开发,是指智能终端设备应用软件开发。由于智能手机、"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="平板电脑等移动端设备的不断普及,使APP应用软件得到广泛的使用,导致APP开发"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/ss"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@mipmap/yq9"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="视频制作"
+                            android:textColor="@color/text_color"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="视频制作是将图片、视频及背景音乐"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="进行重新剪辑、整合、编排,从而生成一个新的视频文件的过程,不仅是对原素"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="材的合成,也是对原有素材的再加工。"
+                            android:textSize="@dimen/text_small"
+                            android:textColor="@color/gray2"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <com.yuqi.admin.py.view.ResizableImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="30dp"
+                            android:src="@mipmap/yq10"
+                            android:scaleType="fitCenter"
+                            android:layout_weight="1" />
+
+                        <com.yuqi.admin.py.view.ResizableImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitCenter"
+                            android:background="@mipmap/yq11"  />
+
+                        <com.yuqi.admin.py.view.ResizableImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitCenter"
+                            android:background="@mipmap/yq12"  />
+
+                        <com.yuqi.admin.py.view.ResizableImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitCenter"
+                            android:background="@mipmap/yq13"  />
+
+                        <com.yuqi.admin.py.view.ResizableImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:scaleType="fitCenter"
+                            android:background="@mipmap/yq14"  />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray2"/>
+    <include layout="@layout/include_but"/>
+</LinearLayout>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <include layout="@layout/include_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray1"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white1"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="@dimen/simple_text_height"
+                            android:text="预存款项"
+                            android:layout_marginTop="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_color" />
+
+
+                        <LinearLayout
+                            android:id="@+id/wlzjjs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="onLayoutClick"
+                            android:clickable="true"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/wlzjjs2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/xuanzhong"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_high_small"
+                                android:text="网络基础建设"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/pyjh_ycz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_margin"
+                            android:onClick="onLayoutClick"
+                            android:clickable="true"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/pyjh_ycz2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/meixuanzhong"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_high_small"
+                                android:text="彭友聚汇-预充值"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ch_ry_ps_zz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_margin"
+                            android:onClick="onLayoutClick"
+                            android:clickable="true"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/ch_ry_ps_zz2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/meixuanzhong"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_high_small"
+                                android:text="策划-人员-拍摄-制作"/>
+                        </LinearLayout>
+
+
+                        <EditText
+                            android:id="@+id/wm_yufukuan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_margin"
+                            android:textStyle="bold"
+                            android:inputType="number"
+                            android:maxLength="11"
+                            android:singleLine="true"
+                            android:background="@drawable/text_background"
+                            android:textSize="@dimen/_margin"
+                            android:padding="@dimen/_margin"
+                            android:textColorHint="@color/gray2"
+                            android:textColor="@color/text_color"
+                            android:hint="请输入您的预存金额（注：预存金额需50或50的倍数）"/>
+
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="@dimen/simple_text_height"
+                            android:text="填写信息"
+                            android:layout_marginTop="40dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:text="公司名称"/>
+
+                        <EditText
+                            android:id="@+id/wm_gongsiquancheng"
+                            style="@style/EditText_"
+                            android:layout_margin="0dp"
+                            android:hint="请输入您的公司名称"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="姓名"/>
+
+                        <EditText
+                            android:id="@+id/wm_zhenshixingming"
+                            style="@style/EditText_"
+                            android:layout_margin="0dp"
+                            android:hint="请输入您的真实姓名"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="电话"/>
+
+                        <EditText
+                            android:id="@+id/wm_shoujihao"
+                            style="@style/EditText_"
+                            android:layout_margin="0dp"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:maxLength="11"
+                            android:singleLine="true"
+                            android:hint="请输入您的真实手机号码"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="地址"/>
+
+                        <EditText
+                            android:id="@+id/wm_gsdz"
+                            style="@style/EditText_"
+                            android:layout_margin="0dp"
+                            android:hint="请输入您的公司地址"/>
+
+
+                        <TextView
+                            android:id="@+id/wm_tijiao"
+                            android:layout_width="200dp"
+                            android:layout_height="@dimen/title_height"
+                            android:background="@color/yellow1"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="提交"
+                            android:onClick="onLayoutClick"
+                            android:clickable="true"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="@dimen/text_large"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:background="@color/gray1"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="邮箱： pengmh@yuibest.com" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="手机： 180-1920-8990" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/wm_zhifubao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_high_small3"
+            android:paddingBottom="@dimen/_high_small3"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:background="@color/white1">
+
+            <ImageView
+                android:id="@+id/wm_zhifubao1"
+                android:layout_width="@dimen/simple_text_height"
+                android:layout_height="@dimen/simple_text_height"
+                android:paddingLeft="@dimen/_margin"
+                android:src="@mipmap/zfb2"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_margin"
+                android:text="支付宝"/>
+            <ImageView
+                android:id="@+id/wm_zhifubao11"
+                android:layout_width="@dimen/_margin"
+                android:layout_height="@dimen/_margin"
+                android:layout_gravity="center"
+                android:src="@mipmap/xuanzhong"/>
+            <ImageView
+                android:layout_height="18dp"
+                android:layout_width="18dp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_high_small"
+                android:src="@mipmap/xia"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray2"/>
+
+        <LinearLayout
+            android:id="@+id/wm_weixin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_high_small3"
+            android:paddingBottom="@dimen/_high_small3"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:background="@color/white1">
+
+            <ImageView
+                android:id="@+id/wm_weixin1"
+                android:layout_width="@dimen/simple_text_height"
+                android:layout_height="@dimen/simple_text_height"
+                android:paddingLeft="@dimen/_margin"
+                android:src="@mipmap/wx1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_margin"
+                android:text="微信"/>
+            <ImageView
+                android:id="@+id/wm_weixin11"
+                android:layout_width="@dimen/_margin"
+                android:layout_height="@dimen/_margin"
+                android:layout_gravity="center"
+                android:src="@mipmap/meixuanzhong"/>
+            <ImageView
+                android:layout_height="18dp"
+                android:layout_width="18dp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_high_small"
+                android:src="@mipmap/xia"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray2"/>
+    <include layout="@layout/include_but"/>
+</LinearLayout>

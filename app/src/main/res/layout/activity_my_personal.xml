@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_high_small"
+        android:background="@color/gray1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="@dimen/_margin"
+        android:layout_marginBottom="@dimen/_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号"/>
+
+        <TextView
+            android:id="@+id/pi_zhanghao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="账号"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_high_small"
+        android:background="@color/gray1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="@dimen/_margin"
+        android:layout_marginBottom="@dimen/_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隶属公司"/>
+
+        <TextView
+            android:id="@+id/pi_gongsimingcheng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text=" "/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_high_small"
+        android:background="@color/gray1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="@dimen/_margin"
+        android:layout_marginBottom="@dimen/_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册时间"/>
+
+        <TextView
+            android:id="@+id/pi_zhuceshijian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text=" "/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_high_small"
+        android:background="@color/gray1"/>
+
+</LinearLayout>

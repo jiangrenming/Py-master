@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white1"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="1dp">
+
+            <com.yuqi.admin.py.view.MyLocationRadioButton
+                android:id="@+id/sy_zh"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:button="@null"
+                android:text="综合"
+                android:gravity="center"   />
+
+            <com.yuqi.admin.py.view.MyLocationRadioButton
+                android:id="@+id/sy_sj"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:button="@null"
+                android:text="手机"
+                android:gravity="center"   />
+
+
+            <com.yuqi.admin.py.view.MyLocationRadioButton
+                android:id="@+id/sy_xh"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:button="@null"
+                android:text="洗护"
+                android:gravity="center"   />
+
+            <com.yuqi.admin.py.view.MyLocationRadioButton
+                android:id="@+id/sy_xb"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:button="@null"
+                android:text="箱包"
+                android:gravity="center"   />
+
+            <com.yuqi.admin.py.view.MyLocationRadioButton
+                android:id="@+id/sy_sp"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:button="@null"
+                android:text="食品"
+                android:gravity="center"   />
+
+            <com.yuqi.admin.py.view.MyLocationRadioButton
+                android:id="@+id/sy_jy"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:button="@null"
+                android:text="家用"
+                android:gravity="center"   />
+
+        </RadioGroup>
+
+</LinearLayout>

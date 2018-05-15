@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_main_bottom"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:background="@color/white1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/bt_shouye11"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bt_shouye"
+                android:layout_width="@dimen/simple_text_height"
+                android:layout_height="@dimen/simple_text_height"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:button="@null"
+                android:layout_marginTop="@dimen/_high_small3"
+                android:src="@mipmap/_b1" />
+            <TextView
+                android:id="@+id/bt_shouye1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_high_small3"
+                android:textColor="@color/gray2"
+                android:textSize="@dimen/_high_large"
+                android:text="彭友首页"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bt_yuqi11"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bt_yuqi"
+            android:layout_width="@dimen/simple_text_height"
+            android:layout_height="@dimen/simple_text_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_marginTop="@dimen/_high_small3"
+            android:src="@mipmap/_b2" />
+        <TextView
+            android:id="@+id/bt_yuqi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_high_small3"
+            android:textColor="@color/gray2"
+            android:textSize="@dimen/_high_large"
+            android:text="羽琪科技"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bt_anli11"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bt_anli"
+            android:layout_width="@dimen/simple_text_height"
+            android:layout_height="@dimen/simple_text_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_marginTop="@dimen/_high_small3"
+            android:src="@mipmap/_b3"
+            />
+        <TextView
+            android:id="@+id/bt_anli1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_high_small3"
+            android:textColor="@color/gray2"
+            android:textSize="@dimen/_high_large"
+            android:text="平台说明"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bt_women11"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bt_women"
+            android:layout_width="@dimen/simple_text_height"
+            android:layout_height="@dimen/simple_text_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_marginTop="@dimen/_high_small3"
+            android:src="@mipmap/_b4"
+        />
+        <TextView
+            android:id="@+id/bt_women1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_high_small3"
+            android:textColor="@color/gray2"
+            android:textSize="@dimen/_high_large"
+            android:text="联系我们"/>
+    </LinearLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+
+    <EditText
+        android:id="@+id/dzbj_shouhuoren"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="收货人姓名"/>
+
+    <EditText
+        android:id="@+id/dzbj_lishugongsi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="隶属公司全称"/>
+
+    <EditText
+        android:id="@+id/dzbj_lianxifangshi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="联系方式"/>
+
+    <EditText
+        android:id="@+id/dzbj_shouhuodizhi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="收货详细地址"
+        android:layout_marginBottom="@dimen/_high"/>
+
+    <EditText
+        android:id="@+id/dzbj_lianxifangshi1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="联系方式"/>
+
+    <EditText
+        android:id="@+id/dzbj_shouhuodizhi1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/white1"
+        android:paddingLeft="@dimen/_margin"
+        android:paddingRight="@dimen/_margin"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="收货详细地址"
+        android:layout_marginBottom="@dimen/_high"/>
+
+    <TextView
+        android:id="@+id/dzbj_baocun"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_btn_height"
+        android:background="@color/yellow1"
+        android:layout_margin="@dimen/_margin"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:onClick="onLayoutClick"
+        android:clickable="true"
+        android:hint="保存"/>
+
+
+
+
+
+</LinearLayout>

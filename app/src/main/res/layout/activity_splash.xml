@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_ll">
+    <com.yuqi.admin.py.view.CustomVideoView
+        android:id="@+id/splash_videoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<com.yuqi.admin.py.view.RoundCornerButton
+    android:id="@+id/splash_tv"
+    android:layout_alignParentTop="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:text="跳过"
+    android:clickable="true"
+    android:onClick="onClick"
+    android:enabled="true"
+    android:padding="5dp"
+    android:textSize="15dp"
+    app:rcb_backgroundColor="@color/yellow"
+    app:rcb_backgroundColorDisabled="@color/light_grey"
+    android:textColor="@color/white"
+    app:rcb_cornerRadius="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+</RelativeLayout>

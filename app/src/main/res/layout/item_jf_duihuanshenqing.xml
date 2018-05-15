@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:background="@drawable/text_background_gray"
+    android:layout_margin="@dimen/_margin"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_title"
+        android:layout_marginLeft="@dimen/simple_text_height"
+        android:layout_marginRight="@dimen/simple_text_height"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_high"
+        android:text="13621801679"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/dh_fuzhi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_centre1"
+            android:gravity="center"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:visibility="gone"
+            android:text="复制"/>
+
+        <TextView
+            android:id="@+id/dh_hujiao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_centre1"
+            android:textColor="@color/yellow1"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="呼叫"/>
+    </LinearLayout>
+
+
+</LinearLayout>

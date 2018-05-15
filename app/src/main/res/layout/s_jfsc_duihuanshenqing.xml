@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white1">
+
+    <include layout="@layout/include_title"/>
+
+    <!--提交成功-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/jf_jifen"
+            android:layout_marginBottom="@dimen/_margin"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="网站搭建兑换申请已提交"
+        android:textSize="@dimen/_high"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_margin"
+        android:text="彭友客服会在24小时之内"
+        android:textColor="@color/gray2"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/gray2"
+        android:text="与您取得联系,请您保持手机畅通"
+        android:textStyle="bold"/>
+    <!--提交成功-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ljlxpysy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/simple_text_height"
+            android:layout_marginRight="@dimen/simple_text_height"
+            android:layout_marginTop="@dimen/simple_text_height"
+            android:padding="@dimen/_margin"
+            android:gravity="center"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:background="@drawable/text_background_heise"
+            android:textSize="@dimen/text_large"
+            android:text="立即返回彭友首页"/>
+
+
+        <TextView
+            android:id="@+id/ljlxpykf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/simple_text_height"
+            android:layout_marginRight="@dimen/simple_text_height"
+            android:layout_marginTop="@dimen/simple_text_height"
+            android:background="@color/yellow1"
+            android:padding="@dimen/_margin"
+            android:gravity="center"
+            android:onClick="onLayoutClick"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:text="立即联系彭友客服"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="bottom"
+        android:background="@color/white1"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/simple_btn_height"
+            android:layout_gravity="center"
+            android:gravity="center|right"
+            android:background="@color/white1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="共"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="件"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_margin"
+                android:text="合计："/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_high_small"
+                android:layout_marginRight="@dimen/_margin"
+                android:textColor="@color/yellow1"
+                android:text="￥1999"/>
+            <TextView
+                android:id="@+id/tijiaodd"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:onClick="onLayoutClick"
+                android:clickable="true"
+                android:background="@color/yellow1"
+                android:textColor="@color/white1"
+                android:textStyle="bold"
+                android:text="结算"/>
+
+        </LinearLayout>
+</LinearLayout>
+
+

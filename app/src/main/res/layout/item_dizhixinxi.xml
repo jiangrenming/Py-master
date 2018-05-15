@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/ll_quanbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white1"
+        android:padding="@dimen/_margin"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/dz_xm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:maxLength="4"
+                android:text="姓名"/>
+
+            <TextView
+                android:id="@+id/dz_sjh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="电话"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dz_lsgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_high_small3"
+            android:text="上海羽琪科技有限公司"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/dz_xxdz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_high_small3"
+            android:text="上海市嘉定区华江路994号"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_high_small3">
+
+            <ImageView
+                android:id="@+id/dz_mr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onLayoutClick"
+                android:clickable="true"
+                android:src="@mipmap/xuanzhong"/>
+
+            <TextView
+                android:id="@+id/dz_mrdz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/dz_mr"
+                android:layout_marginLeft="@dimen/_high_small3"
+                android:text="设为默认地址"/>
+
+            <ImageView
+                android:id="@+id/dz_bj"
+                android:layout_width="@dimen/simple_text_height"
+                android:layout_height="@dimen/simple_text_height"
+                android:layout_marginRight="@dimen/_high_small3"
+                android:padding="@dimen/_high_small"
+                android:src="@mipmap/bianji"/>
+
+            <ImageView
+                android:id="@+id/dz_sc"
+                android:layout_width="@dimen/simple_text_height"
+                android:layout_height="@dimen/simple_text_height"
+                android:padding="@dimen/_high_small"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/shanchu"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

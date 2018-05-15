@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:id="@+id/sp_xiangqing"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/text_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <com.yuqi.admin.py.view.ResizableImageView
+            android:id="@+id/r1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/r11"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginRight="@dimen/_margin"
+            android:layout_marginLeft="@dimen/_margin"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_gravity="left"
+            android:text="健康贴"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/simple_text_height"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_jiage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="left|center"
+                android:gravity="left|center"
+                android:layout_marginLeft="@dimen/_margin"
+                android:textStyle="bold"
+                android:text="￥50.00"/>
+
+            <ImageView
+                android:id="@+id/gouwuche"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="@dimen/_margin"
+                android:layout_gravity="center"
+                android:src="@mipmap/gwc" />
+        </LinearLayout>
+    </LinearLayout>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+    <!--账号余额-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/yellow1"
+        android:layout_marginTop="@dimen/_margin"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_margin"
+            android:layout_marginTop="@dimen/_margin"
+            android:text="账号余额(元):"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/jine"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_large"
+            android:text="3000.25"/>
+
+    </LinearLayout>
+    <!--结算物件-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_margin"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@mipmap/a_bj"
+                    android:scaleType="center"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_margin"
+                    android:lines="2"
+                    android:text="诺基亚ozo虚拟现实高端VR相机 360 全景相机 4k智能设备"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:text="￥1999"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_margin"
+                        android:layout_gravity="right"
+                        android:textColor="@color/gray1"
+                        android:text="X 1"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--支付选项-->
+    <include layout="@layout/include_zhifu_but1" />
+
+
+</LinearLayout>

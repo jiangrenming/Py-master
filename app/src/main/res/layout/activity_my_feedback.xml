@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:background="@color/white1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/eidttext_fillet"
+            android:gravity="left"
+            android:hint="请提出您的宝贵意见，我们会认真考虑，并尽快处理..."
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"  />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="@dimen/_margin"
+        android:background="@color/background"
+        android:gravity="center"
+        android:onClick="onLayoutClick"
+        android:textColor="@color/yellow1"
+        android:text="提交"
+        android:textSize="@dimen/text_large" />
+
+</LinearLayout>

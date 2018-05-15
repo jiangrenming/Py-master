@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="yellow1">#f4a100</color>
+    <color name="gray1">#ebebeb </color>
+    <color name="gray2">#cdcdcd </color>
+    <color name="red1">#eb1600</color>
+    <color name="white1">#ffffff</color>
+    <color name="text_color">#262626</color>
+    <color name="background">#151515</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="background1">#cc151515</color>
+    <!--微信用到-->
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="common_bg_color">#F2F2FD</color>
+    <color name="press_btn_color">#ddd</color>
+
+
+    <color name="light_grey">#ccced0</color>
+<!--重新加载网络-->
+    <color name="text_black">#333333</color>
+    <color name="text_black_light">#666666</color>
+    <color name="text_gray">#999999</color>
+    <color name="gray_light8">#d9d9d9</color>
+</resources>

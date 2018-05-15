@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@mipmap/woyaofabu">
+        <TextView
+            android:id="@+id/yi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_large"
+            android:layout_marginLeft="@dimen/_margin"
+            android:layout_alignParentBottom="true"
+            android:text="提示："
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray2"
+            android:layout_centerInParent="true"
+            android:text="请在发布需求时，填写您的真实信息，尽可能" />
+        <TextView
+            android:id="@+id/fb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray2"
+            android:layout_centerInParent="true"
+            android:text="的明确需求，以便彭友快速有效的和您建立联" />
+        <TextView
+            android:id="@+id/fb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray2"
+            android:layout_centerInParent="true"
+            android:text="系。谢谢您的配合与支持" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/purchase_edit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="onLayoutClick"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:background="@color/yellow1">
+
+        <TextView
+            android:id="@+id/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white1"
+            android:textSize="@dimen/text_large"
+            android:layout_centerInParent="true"
+            android:text="我要发布" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_toRightOf="@+id/fb"
+            android:layout_marginLeft="12dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/purchase_edit"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,241 @@
+[
+    {
+        "outputFile": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 49,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 46,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 46,
+                        "endOffset": 300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 40,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 40,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 53,
+                    "endOffset": 242
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 217,
+                        "endColumn": 53,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 247,
+                    "endColumn": 53,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 53,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 53,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 53,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 57,
+                    "endOffset": 408
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 271,
+                        "endColumn": 57,
+                        "endOffset": 324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 413,
+                    "endColumn": 54,
+                    "endOffset": 463
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 54,
+                        "endOffset": 379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 468,
+                    "endColumn": 52,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 52,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 1034
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1039,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1297
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1186,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1302,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1907
+                },
+                "from": {
+                    "file": "G:\\othercompany\\Py-master\\Py-master\\updatelibrary\\src\\main\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 575,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 1180
+                    }
+                }
+            }
+        ]
+    }
+]

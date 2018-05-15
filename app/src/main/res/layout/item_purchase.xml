@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/purchase_identity"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/cg1"/>
+
+            <TextView
+                android:id="@+id/purchase_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="@dimen/text_centre"
+                android:text="01:20"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="2dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:background="@color/yellow1"/>
+
+
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@mipmap/cg3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/purchase_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="我需要采购10包铁观音茶叶，希望尽早与您取得联系"
+                android:textSize="@dimen/text_centre"/>
+
+            <TextView
+                android:id="@+id/purchase_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="@dimen/text_centre"
+                android:textColor="@color/gray2"
+                android:text="01:20"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray2"/>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_centre</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!--主页RadioButton的样式-->
+    <style name="sytle_RadioButton">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <!--容器自动换行-->
+    <style name="WarpLinearLayoutDefault">
+        <item name="grivate">left</item>
+        <item name="horizontal_Space">20dp</item>
+        <item name="vertical_Space">20dp</item>
+        <item name="isFull">false</item>
+    </style>
+    <!-- Navigation Header -->
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">@color/navpage</item>
+    </style>
+
+    <!--  请假处 有用到的 弹对话框  -->
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!--图片加载用的-->
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/text_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+
+    <style name="style_layout_mm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="style_layout_ww">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="style_layout_mw">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="style_layout_wm">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+
+    <style name="EditText_">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/gray1</item>
+        <item name="android:background">@drawable/text_background</item>
+    </style>
+
+    <style name="_Return">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+
+    <style name="exist_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_out</item>
+    </style>
+
+    <style name="CommentStyle" parent="@android:style/Theme.Dialog">
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+    <!--网络请求-->
+    <style name="text_font_size_s">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_font_size_ssm">
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="text_font_size_ss">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Text_Style">
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:drawablePadding">2dip</item>
+    </style>
+    <style name="Text_Large_White" parent="Text_Style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+</resources>
