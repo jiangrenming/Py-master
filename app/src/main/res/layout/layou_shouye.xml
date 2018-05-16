@@ -310,7 +310,7 @@
                         android:src="@mipmap/eat" />
                     <View
                         android:layout_width="1dp"
-                        android:background="@color/liji_c_blue"
+                        android:background="@color/gray1"
                         android:layout_height="match_parent"/>
 
                     <LinearLayout
@@ -326,7 +326,7 @@
                             android:src="@mipmap/famliy" />
                         <View
                             android:layout_width="match_parent"
-                            android:background="@color/liji_c_blue"
+                            android:background="@color/gray1"
                             android:layout_height="1dp"/>
 
                         <LinearLayout
@@ -343,7 +343,7 @@
                                 android:src="@mipmap/dazuihou" />
                             <View
                                 android:layout_width="1dp"
-                                android:background="@color/liji_c_blue"
+                                android:background="@color/gray1"
                                 android:layout_height="match_parent"/>
                             <ImageView
                                 android:id="@+id/life_categry"
